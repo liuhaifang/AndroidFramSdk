@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PullListView">
+        <attr name="headvisiable" format="boolean" />
+        <attr name="footvisiable" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ItemSwitchButton">
+        <attr name="bottomImage" format="reference" />
+        <attr name="btnPressedImage" format="reference" />
+        <attr name="btnNormalImage" format="reference" />
+        <attr name="frameImage" format="reference" />
+        <attr name="maskImage" format="reference" />
+    </declare-styleable>
+
+</resources>

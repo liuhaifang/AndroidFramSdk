@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.frame.sdk">
+
+    <!-- 使用网络权限
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    -->
+
+    <!-- 外部存储器读写权限
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    -->
+
+    <!-- 读取电话状态权限 
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    -->
+
+    <!-- GPS定位权限
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    -->
+
+    <!--开机自启动权限
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+-->
+    <!-- 注册系统广播接收器 -->
+    <!--<receiver android:name=".BootBroadcastReceiver" >-->
+    <!--<intent-filter>-->
+    <!--<action android:name="android.intent.action.BOOT_COMPLETED"/>-->
+    <!--<category android:name="android.intent.category.HOME" />-->
+    <!--</intent-filter>-->
+    <!--</receiver>-->
+</manifest>
